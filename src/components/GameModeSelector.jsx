@@ -31,7 +31,7 @@ export default function GameModeSelector({
   const maxImpostors = Math.max(1, Math.floor(playerCount / 3));
   const maxNothings = Math.max(0, Math.floor(playerCount / 4));
 
-  console.log('My Player:', selectedMode);
+  
 
   return (
     <div className="min-h-screen bg-slate-950 p-4 overflow-y-auto">
